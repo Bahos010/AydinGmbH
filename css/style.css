@@ -945,6 +945,26 @@ a.contact__value:hover { color: var(--clr-primary-lt); }
   font-size: .88rem;
   line-height: 1.65;
 }
+.footer__social {
+  margin-top: 1rem;
+}
+.footer__social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  color: rgba(255,255,255,.6);
+  font-size: .88rem;
+  font-weight: 600;
+  transition: color var(--transition);
+}
+.footer__social-link svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.footer__social-link:hover {
+  color: var(--clr-primary-lt);
+}
 
 .footer__col h4 {
   font-family: var(--font-head);
