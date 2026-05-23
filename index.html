@@ -40,6 +40,7 @@
         <li><a href="#leistungen" class="nav__link">Leistungen</a></li>
         <li><a href="#ueber-uns" class="nav__link">Über uns</a></li>
         <li><a href="#ablauf" class="nav__link">Ablauf</a></li>
+        <li><a href="#referenzen" class="nav__link">Referenzen</a></li>
         <li><a href="#bewertungen" class="nav__link">Bewertungen</a></li>
         <li><a href="#kontakt" class="nav__link nav__link--cta">Kontakt</a></li>
       </ul>
@@ -50,17 +51,21 @@
 
     <!-- ===== HERO ===== -->
     <section class="hero" id="hero">
-      <div class="hero__bg-shapes" aria-hidden="true">
-        <div class="hero__shape hero__shape--1"></div>
-        <div class="hero__shape hero__shape--2"></div>
-        <div class="hero__shape hero__shape--3"></div>
+      <div class="hero__media">
+        <img
+          src="images/468464261_122172856844098695_7889002075088275894_n..jpg"
+          alt="Volkan Aydin – Geschäftsführer Heiz- und Haustechnik Aydin GmbH"
+          loading="eager"
+          fetchpriority="high"
+        />
+        <div class="hero__overlay" aria-hidden="true"></div>
       </div>
       <div class="container hero__content">
         <div class="hero__text">
           <span class="hero__eyebrow">Essen &amp; Umgebung</span>
           <h1 class="hero__headline">Ihre Heizung<br /><span class="highlight">in besten Händen.</span></h1>
           <p class="hero__sub">
-            Heizungsinstallation · Sanitärinstallation · Wärmepumpen · Gebäudetechnik –<br />
+            Heizung · Sanitär · Wärmepumpen · Solar · Wartung –<br />
             alles aus einer Hand. Schnell, sauber und verlässlich.
           </p>
           <div class="hero__actions">
@@ -87,39 +92,6 @@
             </div>
           </div>
         </div>
-        <div class="hero__visual" aria-hidden="true">
-          <div class="hero__flame-wrap">
-            <svg class="hero__flame" viewBox="0 0 200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <radialGradient id="flameCenterGrad" cx="50%" cy="70%" r="50%">
-                  <stop offset="0%" stop-color="#ffe066"/>
-                  <stop offset="50%" stop-color="#e85d00"/>
-                  <stop offset="100%" stop-color="#c0392b" stop-opacity="0"/>
-                </radialGradient>
-              </defs>
-              <path d="M100 10C70 50 40 80 50 130C60 180 40 200 20 185C25 230 60 270 100 270C150 270 185 230 185 180C185 120 145 70 100 10Z" fill="url(#flameCenterGrad)" opacity=".15"/>
-              <path d="M100 10C70 50 40 80 50 130C60 180 40 200 20 185C25 230 60 270 100 270C150 270 185 230 185 180C185 120 145 70 100 10Z" fill="#e85d00" opacity=".5"/>
-              <path d="M100 60C80 90 65 115 70 145C75 175 62 185 52 178C55 210 75 240 100 240C135 240 158 212 158 180C158 138 130 98 100 60Z" fill="#ff8c42" opacity=".7"/>
-              <path d="M100 110C88 130 82 148 85 165C88 182 80 188 74 184C76 204 88 220 100 220C118 220 133 205 133 188C133 165 118 142 100 110Z" fill="#ffe066" opacity=".85"/>
-              <path d="M100 150C94 162 91 172 93 180C95 188 91 191 88 189C89 198 94 205 100 205C109 205 116 198 116 190C116 179 109 166 100 150Z" fill="#fffbe0"/>
-            </svg>
-            <div class="hero__pipe-graphic">
-              <svg viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="45" y="10" width="30" height="140" rx="4" fill="#1c2f45"/>
-                <rect x="48" y="10" width="24" height="140" rx="3" fill="#253f58"/>
-                <rect x="20" y="50" width="80" height="14" rx="4" fill="#1c2f45"/>
-                <rect x="22" y="52" width="76" height="10" rx="3" fill="#253f58"/>
-                <circle cx="60" cy="57" r="8" fill="#e85d00"/>
-                <circle cx="60" cy="57" r="5" fill="#ff8c42"/>
-                <rect x="52" y="10" width="16" height="8" rx="2" fill="#e85d00"/>
-                <rect x="52" y="142" width="16" height="8" rx="2" fill="#e85d00"/>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="hero__scroll-indicator" aria-hidden="true">
-        <div class="hero__scroll-dot"></div>
       </div>
     </section>
 
@@ -160,78 +132,63 @@
         <div class="services__grid">
 
           <article class="service-card reveal">
-            <div class="service-card__icon service-card__icon--heat">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M24 6C16 16 12 22 14 30C16 38 12 40 9 38C10 44 17 48 24 48C33 48 40 41 40 32C40 22 33 14 24 6Z" fill="currentColor" opacity=".2"/>
-                <path d="M24 14C19 22 17 27 19 32C21 37 17 39 15 37C16 41 20 44 24 44C30 44 35 39 35 33C35 26 30 20 24 14Z" fill="currentColor" opacity=".5"/>
-                <path d="M24 22C21 27 20 30 21 34C22 38 20 39 18 38C19 41 21 43 24 43C28 43 31 40 31 36C31 31 28 26 24 22Z" fill="currentColor"/>
-              </svg>
+            <div class="service-card__img">
+              <img src="images/658127080_17955655815092103_804117126712344209_n..jpg" alt="Heizungsinstallation" loading="lazy" />
             </div>
-            <h3 class="service-card__title">Heizungsinstallation</h3>
-            <p class="service-card__text">Einbau und Inbetriebnahme moderner Heizsysteme – Gas, Öl und mehr. Kompetent, schnell und sauber ausgeführt.</p>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Heizungsinstallation</h3>
+              <p class="service-card__text">Einbau und Inbetriebnahme moderner Heizsysteme – Gas, Öl und mehr. Kompetent, schnell und sauber ausgeführt.</p>
+            </div>
           </article>
 
           <article class="service-card reveal">
-            <div class="service-card__icon service-card__icon--water">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M24 6C24 6 8 22 8 32C8 41 15.2 48 24 48C32.8 48 40 41 40 32C40 22 24 6 24 6Z" fill="currentColor" opacity=".2"/>
-                <path d="M24 16C24 16 12 28 12 34C12 40 17.4 44 24 44C30.6 44 36 40 36 34C36 28 24 16 24 16Z" fill="currentColor" opacity=".5"/>
-                <path d="M24 25C24 25 16 33 16 37C16 40.3 19.6 43 24 43C28.4 43 32 40.3 32 37C32 33 24 25 24 25Z" fill="currentColor"/>
-              </svg>
+            <div class="service-card__img">
+              <img src="images/470183004_122175368030098695_4698178376086607422_n.jpeg" alt="Sanitärinstallation und Badsanierung" loading="lazy" />
             </div>
-            <h3 class="service-card__title">Sanitärinstallation</h3>
-            <p class="service-card__text">Badsanierung, Rohrinstallationen, Armaturen und Sanitäranlagen – fachgerecht und zuverlässig montiert.</p>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Sanitär &amp; Bad</h3>
+              <p class="service-card__text">Badsanierung, Rohrinstallationen, Armaturen und Sanitäranlagen – fachgerecht und zuverlässig montiert.</p>
+            </div>
           </article>
 
           <article class="service-card reveal">
-            <div class="service-card__icon service-card__icon--pump">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="3" fill="currentColor" fill-opacity=".1"/>
-                <path d="M24 12V24L32 28" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M8 24H6M40 24H42M24 8V6M24 40V42" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-                <path d="M13 13L11.5 11.5M35 35L36.5 36.5M35 13L36.5 11.5M13 35L11.5 36.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
+            <div class="service-card__img">
+              <img src="images/659006954_17955655836092103_211815829270472214_n..jpg" alt="Wärmepumpeninstallation" loading="lazy" />
             </div>
-            <h3 class="service-card__title">Wärmepumpen</h3>
-            <p class="service-card__text">Energieeffiziente Wärmepumpenanlagen für nachhaltiges und kostengünstiges Heizen – Planung und Einbau aus einer Hand.</p>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Wärmepumpen</h3>
+              <p class="service-card__text">Energieeffiziente Wärmepumpenanlagen für nachhaltiges und kostengünstiges Heizen – Planung und Einbau aus einer Hand.</p>
+            </div>
           </article>
 
           <article class="service-card reveal">
-            <div class="service-card__icon service-card__icon--building">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <rect x="8" y="16" width="32" height="26" rx="2" fill="currentColor" fill-opacity=".1" stroke="currentColor" stroke-width="2.5"/>
-                <path d="M4 18L24 6L44 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <rect x="18" y="28" width="12" height="14" rx="1.5" fill="currentColor" fill-opacity=".3" stroke="currentColor" stroke-width="2"/>
-                <rect x="12" y="22" width="8" height="7" rx="1" fill="currentColor" fill-opacity=".25" stroke="currentColor" stroke-width="1.5"/>
-                <rect x="28" y="22" width="8" height="7" rx="1" fill="currentColor" fill-opacity=".25" stroke="currentColor" stroke-width="1.5"/>
-              </svg>
+            <div class="service-card__img">
+              <img src="images/514040936_17924336682092103_6569599676473798052_n..jpg" alt="Fußbodenheizung Installation" loading="lazy" />
             </div>
-            <h3 class="service-card__title">Gebäudetechnik</h3>
-            <p class="service-card__text">Komplette haustechnische Anlagen für Wohn- und Gewerbegebäude – Planung, Einbau und Wartung aus einer Hand.</p>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Fußbodenheizung</h3>
+              <p class="service-card__text">Flächenheizungen für gleichmäßige Wärme – energieeffizient, komfortabel und diskret in den Boden integriert.</p>
+            </div>
           </article>
 
           <article class="service-card reveal">
-            <div class="service-card__icon service-card__icon--repair">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M36 12C36 12 40 16 40 20C40 24 36 27 32 27L20 39C18 41 14 41 12 39C10 37 10 33 12 31L24 19C24 15 27 11 31 11C33 11 35 11.7 36 12Z" fill="currentColor" fill-opacity=".15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <circle cx="16" cy="35" r="3" fill="currentColor"/>
-                <path d="M36 12L30 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              </svg>
+            <div class="service-card__img">
+              <img src="images/657652270_17954550111092103_7838186033183547963_n..jpg" alt="Gebäudetechnik und Haustechnik" loading="lazy" />
             </div>
-            <h3 class="service-card__title">Wartung &amp; Reparatur</h3>
-            <p class="service-card__text">Regelmäßige Wartung und schnelle Reparatur Ihrer Heizungs- und Sanitäranlagen – damit alles reibungslos läuft.</p>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Gebäudetechnik</h3>
+              <p class="service-card__text">Komplette haustechnische Anlagen für Wohn- und Gewerbegebäude – Planung, Einbau und Wartung aus einer Hand.</p>
+            </div>
           </article>
 
           <article class="service-card reveal">
-            <div class="service-card__icon service-card__icon--emergency">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M24 6L44 40H4L24 6Z" fill="currentColor" fill-opacity=".1" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-                <line x1="24" y1="20" x2="24" y2="29" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
-                <circle cx="24" cy="34" r="2" fill="currentColor"/>
-              </svg>
+            <div class="service-card__img">
+              <img src="images/624848081_18112372969635920_7711325551805634174_n..jpg" alt="Solar und Wartung" loading="lazy" />
             </div>
-            <h3 class="service-card__title">Haustechnik komplett</h3>
-            <p class="service-card__text">Ob Neubau oder Sanierung – wir übernehmen sämtliche haustechnischen Gewerke und sorgen für ein komfortables Raumklima.</p>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Solar &amp; Wartung</h3>
+              <p class="service-card__text">Installation von Solaranlagen sowie regelmäßige Wartung Ihrer Heizungs- und Sanitäranlagen – zuverlässig und effizient.</p>
+            </div>
           </article>
 
         </div>
@@ -241,24 +198,19 @@
     <!-- ===== ÜBER UNS ===== -->
     <section class="about section" id="ueber-uns">
       <div class="container about__inner">
-        <div class="about__visual reveal" aria-hidden="true">
-          <div class="about__badge-wrap">
-            <div class="about__main-badge">
-              <svg viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="90" cy="90" r="88" stroke="#e85d00" stroke-width="3" fill="#0f1e2e"/>
-                <text x="90" y="75" text-anchor="middle" fill="#e85d00" font-family="Montserrat,sans-serif" font-size="40" font-weight="800">5★</text>
-                <text x="90" y="102" text-anchor="middle" fill="#a0b4c8" font-family="Open Sans,sans-serif" font-size="13">Kundenbewertung</text>
-                <text x="90" y="130" text-anchor="middle" fill="#fff" font-family="Montserrat,sans-serif" font-size="11" font-weight="600">werkenntdenBESTEN</text>
-                <text x="90" y="148" text-anchor="middle" fill="#e85d00" font-family="Open Sans,sans-serif" font-size="12">„Sehr gut"</text>
-              </svg>
-            </div>
-            <div class="about__stat about__stat--1">
-              <span class="about__stat-num">100%</span>
-              <span class="about__stat-label">Zufriedenheit</span>
-            </div>
-            <div class="about__stat about__stat--2">
-              <span class="about__stat-num">5★</span>
-              <span class="about__stat-label">Bewertung</span>
+        <div class="about__visual reveal">
+          <div class="about__photo-wrap">
+            <img
+              src="images/469565512_122174635622098695_5713148443953420574_n..jpg"
+              alt="Volkan Aydin bei der Beratung eines Kunden"
+              loading="lazy"
+            />
+            <div class="about__award">
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <div>
+                <strong>5 / 5</strong>
+                <span>werkenntdenBESTEN · „Sehr gut"</span>
+              </div>
             </div>
           </div>
         </div>
@@ -269,7 +221,7 @@
             Heiz- und Haustechnik Aydin GmbH lässt Sie mit hochwertiger Heizungsinstallation und ausgeklügelter Gebäudetechnik in Essen und Umgebung nicht in der Kälte stehen! Mit langjähriger Erfahrung sorgt unser Team aus freundlichen und gut ausgebildeten Mitarbeitern dafür, dass Sie jederzeit warm und komfortabel in Ihrem Zuhause wohnen können.
           </p>
           <p>
-            Unser Hauptaugenmerk liegt darauf, Ihnen ein angenehmes Wohn- und Arbeitsklima zu schaffen – und das tagtäglich und verlässlich. Vom Einbau von Wärmepumpen bis hin zu Sanitärinstallationen übernehmen wir alles für Sie.
+            Unser Hauptaugenmerk liegt darauf, Ihnen ein angenehmes Wohn- und Arbeitsklima zu schaffen – und das tagtäglich und verlässlich. Vom Einbau von Wärmepumpen und Solaranlagen bis hin zu Fußbodenheizungen und Sanitärinstallationen übernehmen wir alles für Sie.
           </p>
           <ul class="about__list">
             <li>
@@ -333,6 +285,50 @@
             </div>
           </li>
         </ol>
+      </div>
+    </section>
+
+    <!-- ===== REFERENZEN / GALERIE ===== -->
+    <section class="gallery section" id="referenzen">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Abgeschlossene Projekte</span>
+          <h2 class="section-title">Unsere Referenzen</h2>
+          <p class="section-sub">Einblicke in unsere Arbeit – von der Heizungsanlage bis zur Badsanierung.</p>
+        </div>
+        <div class="gallery__grid">
+
+          <figure class="gallery__item reveal">
+            <img src="images/494564259_17917878999092103_104304093045644121_n..jpg" alt="Fertig saniertes Badezimmer" loading="lazy" />
+            <figcaption>Badsanierung</figcaption>
+          </figure>
+
+          <figure class="gallery__item reveal">
+            <img src="images/470054240_122175208130098695_7814325049044028797_n..jpg" alt="Wärmepumpe Installation" loading="lazy" />
+            <figcaption>Wärmepumpe</figcaption>
+          </figure>
+
+          <figure class="gallery__item reveal">
+            <img src="images/470154309_122175348050098695_2439901143071388379_n..jpg" alt="Firmenfahrzeuge Aydin GmbH" loading="lazy" />
+            <figcaption>Unser Fuhrpark</figcaption>
+          </figure>
+
+          <figure class="gallery__item reveal">
+            <img src="images/658796928_17954550129092103_4238324511731122717_n..jpg" alt="Heizungsinstallation mit Rohren" loading="lazy" />
+            <figcaption>Heizungsanlage</figcaption>
+          </figure>
+
+          <figure class="gallery__item reveal">
+            <img src="images/470209729_122175557636098695_5854355480156702708_n..jpg" alt="Monteur bei Rohrleitungsinstallation" loading="lazy" />
+            <figcaption>Montage vor Ort</figcaption>
+          </figure>
+
+          <figure class="gallery__item reveal">
+            <img src="images/469974336_122175169016098695_6804026537267481663_n..jpg" alt="Sanitärarbeiten – modernes Waschbecken" loading="lazy" />
+            <figcaption>Sanitärarbeiten</figcaption>
+          </figure>
+
+        </div>
       </div>
     </section>
 
@@ -563,15 +559,17 @@
         <h4>Leistungen</h4>
         <ul>
           <li><a href="#leistungen">Heizungsinstallation</a></li>
-          <li><a href="#leistungen">Sanitärinstallation</a></li>
+          <li><a href="#leistungen">Sanitär &amp; Bad</a></li>
           <li><a href="#leistungen">Wärmepumpen</a></li>
-          <li><a href="#leistungen">Gebäudetechnik</a></li>
+          <li><a href="#leistungen">Fußbodenheizung</a></li>
+          <li><a href="#leistungen">Solar &amp; Wartung</a></li>
         </ul>
       </div>
       <div class="footer__col">
         <h4>Unternehmen</h4>
         <ul>
           <li><a href="#ueber-uns">Über uns</a></li>
+          <li><a href="#referenzen">Referenzen</a></li>
           <li><a href="#bewertungen">Bewertungen</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
         </ul>
