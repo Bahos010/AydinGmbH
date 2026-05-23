@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Heiz- und Haustechnik Aydin GmbH – Ihr Experte für Heizungsinstallation, Sanitärinstallation und Wärmepumpen in Essen. Jetzt anrufen: (0201) 47401564" />
+  <meta name="keywords" content="Heizungsinstallation Essen, Sanitärinstallation Essen, Wärmepumpe Essen, Gebäudetechnik Essen, Haustechnik Essen" />
+  <title>Heiz- und Haustechnik Aydin GmbH | Essen</title>
+
+  <!-- Favicon (Flammen-SVG inline als Data-URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-icon">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M20 4C14 10 10 16 12 22C14 28 10 30 8 28C9 34 15 38 20 38C27 38 33 32 33 25C33 18 26 12 20 4Z" fill="#e85d00"/>
+            <path d="M20 16C17 20 16 23 17 26C18 29 16 30 15 29C15.5 32 18 34 20 34C23 34 26 31 26 28C26 24 23 20 20 16Z" fill="#fff" fill-opacity=".9"/>
+          </svg>
+        </span>
+        <span class="nav__logo-text">Aydin <span>Haustechnik</span></span>
+      </a>
+
+      <button class="nav__burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-list">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__list" id="nav-list" role="list">
+        <li><a href="#leistungen" class="nav__link">Leistungen</a></li>
+        <li><a href="#ueber-uns" class="nav__link">Über uns</a></li>
+        <li><a href="#ablauf" class="nav__link">Ablauf</a></li>
+        <li><a href="#bewertungen" class="nav__link">Bewertungen</a></li>
+        <li><a href="#kontakt" class="nav__link nav__link--cta">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg-shapes" aria-hidden="true">
+        <div class="hero__shape hero__shape--1"></div>
+        <div class="hero__shape hero__shape--2"></div>
+        <div class="hero__shape hero__shape--3"></div>
+      </div>
+      <div class="container hero__content">
+        <div class="hero__text">
+          <span class="hero__eyebrow">Essen &amp; Umgebung</span>
+          <h1 class="hero__headline">Ihre Heizung<br /><span class="highlight">in besten Händen.</span></h1>
+          <p class="hero__sub">
+            Heizungsinstallation · Sanitärinstallation · Wärmepumpen · Gebäudetechnik –<br />
+            alles aus einer Hand. Schnell, sauber und verlässlich.
+          </p>
+          <div class="hero__actions">
+            <a href="tel:+4920147401564" class="btn btn--primary">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+              Jetzt anrufen
+            </a>
+            <a href="#kontakt" class="btn btn--outline">Anfrage stellen</a>
+          </div>
+          <div class="hero__trust">
+            <div class="hero__trust-item">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <span><strong>5/5</strong> Sterne</span>
+            </div>
+            <div class="hero__trust-sep" aria-hidden="true"></div>
+            <div class="hero__trust-item">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>werkenntdenBESTEN – <strong>Sehr gut</strong></span>
+            </div>
+            <div class="hero__trust-sep" aria-hidden="true"></div>
+            <div class="hero__trust-item">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Mo–Fr <strong>07:30–16:00</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__flame-wrap">
+            <svg class="hero__flame" viewBox="0 0 200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <radialGradient id="flameCenterGrad" cx="50%" cy="70%" r="50%">
+                  <stop offset="0%" stop-color="#ffe066"/>
+                  <stop offset="50%" stop-color="#e85d00"/>
+                  <stop offset="100%" stop-color="#c0392b" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <path d="M100 10C70 50 40 80 50 130C60 180 40 200 20 185C25 230 60 270 100 270C150 270 185 230 185 180C185 120 145 70 100 10Z" fill="url(#flameCenterGrad)" opacity=".15"/>
+              <path d="M100 10C70 50 40 80 50 130C60 180 40 200 20 185C25 230 60 270 100 270C150 270 185 230 185 180C185 120 145 70 100 10Z" fill="#e85d00" opacity=".5"/>
+              <path d="M100 60C80 90 65 115 70 145C75 175 62 185 52 178C55 210 75 240 100 240C135 240 158 212 158 180C158 138 130 98 100 60Z" fill="#ff8c42" opacity=".7"/>
+              <path d="M100 110C88 130 82 148 85 165C88 182 80 188 74 184C76 204 88 220 100 220C118 220 133 205 133 188C133 165 118 142 100 110Z" fill="#ffe066" opacity=".85"/>
+              <path d="M100 150C94 162 91 172 93 180C95 188 91 191 88 189C89 198 94 205 100 205C109 205 116 198 116 190C116 179 109 166 100 150Z" fill="#fffbe0"/>
+            </svg>
+            <div class="hero__pipe-graphic">
+              <svg viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="45" y="10" width="30" height="140" rx="4" fill="#1c2f45"/>
+                <rect x="48" y="10" width="24" height="140" rx="3" fill="#253f58"/>
+                <rect x="20" y="50" width="80" height="14" rx="4" fill="#1c2f45"/>
+                <rect x="22" y="52" width="76" height="10" rx="3" fill="#253f58"/>
+                <circle cx="60" cy="57" r="8" fill="#e85d00"/>
+                <circle cx="60" cy="57" r="5" fill="#ff8c42"/>
+                <rect x="52" y="10" width="16" height="8" rx="2" fill="#e85d00"/>
+                <rect x="52" y="142" width="16" height="8" rx="2" fill="#e85d00"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll-indicator" aria-hidden="true">
+        <div class="hero__scroll-dot"></div>
+      </div>
+    </section>
+
+    <!-- ===== TRUST STRIP ===== -->
+    <section class="trust-strip">
+      <div class="container trust-strip__inner">
+        <div class="trust-strip__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          <span>Qualifizierte Fachkräfte</span>
+        </div>
+        <div class="trust-strip__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          <span>Schnelle Ausführung</span>
+        </div>
+        <div class="trust-strip__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+          <span>Saubere Arbeitsweise</span>
+        </div>
+        <div class="trust-strip__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          <span>Freundliches Team</span>
+        </div>
+        <div class="trust-strip__item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+          <span>Alles aus einer Hand</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LEISTUNGEN ===== -->
+    <section class="services section" id="leistungen">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Was wir für Sie tun</span>
+          <h2 class="section-title">Unsere Leistungen</h2>
+          <p class="section-sub">Von der Heizung bis zur Sanitäranlage – wir kümmern uns um Ihre komplette Haustechnik.</p>
+        </div>
+        <div class="services__grid">
+
+          <article class="service-card reveal">
+            <div class="service-card__icon service-card__icon--heat">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M24 6C16 16 12 22 14 30C16 38 12 40 9 38C10 44 17 48 24 48C33 48 40 41 40 32C40 22 33 14 24 6Z" fill="currentColor" opacity=".2"/>
+                <path d="M24 14C19 22 17 27 19 32C21 37 17 39 15 37C16 41 20 44 24 44C30 44 35 39 35 33C35 26 30 20 24 14Z" fill="currentColor" opacity=".5"/>
+                <path d="M24 22C21 27 20 30 21 34C22 38 20 39 18 38C19 41 21 43 24 43C28 43 31 40 31 36C31 31 28 26 24 22Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Heizungsinstallation</h3>
+            <p class="service-card__text">Einbau und Inbetriebnahme moderner Heizsysteme – Gas, Öl und mehr. Kompetent, schnell und sauber ausgeführt.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon service-card__icon--water">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M24 6C24 6 8 22 8 32C8 41 15.2 48 24 48C32.8 48 40 41 40 32C40 22 24 6 24 6Z" fill="currentColor" opacity=".2"/>
+                <path d="M24 16C24 16 12 28 12 34C12 40 17.4 44 24 44C30.6 44 36 40 36 34C36 28 24 16 24 16Z" fill="currentColor" opacity=".5"/>
+                <path d="M24 25C24 25 16 33 16 37C16 40.3 19.6 43 24 43C28.4 43 32 40.3 32 37C32 33 24 25 24 25Z" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Sanitärinstallation</h3>
+            <p class="service-card__text">Badsanierung, Rohrinstallationen, Armaturen und Sanitäranlagen – fachgerecht und zuverlässig montiert.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon service-card__icon--pump">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="3" fill="currentColor" fill-opacity=".1"/>
+                <path d="M24 12V24L32 28" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M8 24H6M40 24H42M24 8V6M24 40V42" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M13 13L11.5 11.5M35 35L36.5 36.5M35 13L36.5 11.5M13 35L11.5 36.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Wärmepumpen</h3>
+            <p class="service-card__text">Energieeffiziente Wärmepumpenanlagen für nachhaltiges und kostengünstiges Heizen – Planung und Einbau aus einer Hand.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon service-card__icon--building">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="8" y="16" width="32" height="26" rx="2" fill="currentColor" fill-opacity=".1" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M4 18L24 6L44 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="18" y="28" width="12" height="14" rx="1.5" fill="currentColor" fill-opacity=".3" stroke="currentColor" stroke-width="2"/>
+                <rect x="12" y="22" width="8" height="7" rx="1" fill="currentColor" fill-opacity=".25" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="28" y="22" width="8" height="7" rx="1" fill="currentColor" fill-opacity=".25" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Gebäudetechnik</h3>
+            <p class="service-card__text">Komplette haustechnische Anlagen für Wohn- und Gewerbegebäude – Planung, Einbau und Wartung aus einer Hand.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon service-card__icon--repair">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M36 12C36 12 40 16 40 20C40 24 36 27 32 27L20 39C18 41 14 41 12 39C10 37 10 33 12 31L24 19C24 15 27 11 31 11C33 11 35 11.7 36 12Z" fill="currentColor" fill-opacity=".15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="16" cy="35" r="3" fill="currentColor"/>
+                <path d="M36 12L30 18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Wartung &amp; Reparatur</h3>
+            <p class="service-card__text">Regelmäßige Wartung und schnelle Reparatur Ihrer Heizungs- und Sanitäranlagen – damit alles reibungslos läuft.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon service-card__icon--emergency">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M24 6L44 40H4L24 6Z" fill="currentColor" fill-opacity=".1" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <line x1="24" y1="20" x2="24" y2="29" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="24" cy="34" r="2" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Haustechnik komplett</h3>
+            <p class="service-card__text">Ob Neubau oder Sanierung – wir übernehmen sämtliche haustechnischen Gewerke und sorgen für ein komfortables Raumklima.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ÜBER UNS ===== -->
+    <section class="about section" id="ueber-uns">
+      <div class="container about__inner">
+        <div class="about__visual reveal" aria-hidden="true">
+          <div class="about__badge-wrap">
+            <div class="about__main-badge">
+              <svg viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="90" cy="90" r="88" stroke="#e85d00" stroke-width="3" fill="#0f1e2e"/>
+                <text x="90" y="75" text-anchor="middle" fill="#e85d00" font-family="Montserrat,sans-serif" font-size="40" font-weight="800">5★</text>
+                <text x="90" y="102" text-anchor="middle" fill="#a0b4c8" font-family="Open Sans,sans-serif" font-size="13">Kundenbewertung</text>
+                <text x="90" y="130" text-anchor="middle" fill="#fff" font-family="Montserrat,sans-serif" font-size="11" font-weight="600">werkenntdenBESTEN</text>
+                <text x="90" y="148" text-anchor="middle" fill="#e85d00" font-family="Open Sans,sans-serif" font-size="12">„Sehr gut"</text>
+              </svg>
+            </div>
+            <div class="about__stat about__stat--1">
+              <span class="about__stat-num">100%</span>
+              <span class="about__stat-label">Zufriedenheit</span>
+            </div>
+            <div class="about__stat about__stat--2">
+              <span class="about__stat-num">5★</span>
+              <span class="about__stat-label">Bewertung</span>
+            </div>
+          </div>
+        </div>
+        <div class="about__text reveal">
+          <span class="section-eyebrow">Über uns</span>
+          <h2 class="section-title">Vom Einbau bis zur Inbetriebnahme – alles aus einer Hand</h2>
+          <p>
+            Heiz- und Haustechnik Aydin GmbH lässt Sie mit hochwertiger Heizungsinstallation und ausgeklügelter Gebäudetechnik in Essen und Umgebung nicht in der Kälte stehen! Mit langjähriger Erfahrung sorgt unser Team aus freundlichen und gut ausgebildeten Mitarbeitern dafür, dass Sie jederzeit warm und komfortabel in Ihrem Zuhause wohnen können.
+          </p>
+          <p>
+            Unser Hauptaugenmerk liegt darauf, Ihnen ein angenehmes Wohn- und Arbeitsklima zu schaffen – und das tagtäglich und verlässlich. Vom Einbau von Wärmepumpen bis hin zu Sanitärinstallationen übernehmen wir alles für Sie.
+          </p>
+          <ul class="about__list">
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              Langjährige Erfahrung in der Gebäudetechnik
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              Qualifizierte und freundliche Mitarbeiter
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              Schnelle, saubere und zuverlässige Ausführung
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+              Servicegebiet: Essen und gesamte Umgebung
+            </li>
+          </ul>
+          <a href="tel:+4920147401564" class="btn btn--primary">
+            Kostenlos anfragen
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABLAUF ===== -->
+    <section class="process section" id="ablauf">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">So einfach geht's</span>
+          <h2 class="section-title">Ihr Weg zu einer neuen Heizung</h2>
+        </div>
+        <ol class="process__steps">
+          <li class="process__step reveal">
+            <div class="process__num">01</div>
+            <div class="process__body">
+              <h3>Kontakt aufnehmen</h3>
+              <p>Rufen Sie uns an oder schreiben Sie uns eine Nachricht. Wir melden uns schnell zurück.</p>
+            </div>
+          </li>
+          <li class="process__step reveal">
+            <div class="process__num">02</div>
+            <div class="process__body">
+              <h3>Vor-Ort-Besichtigung</h3>
+              <p>Wir schauen uns die Situation direkt bei Ihnen an und beraten Sie kompetent und unverbindlich.</p>
+            </div>
+          </li>
+          <li class="process__step reveal">
+            <div class="process__num">03</div>
+            <div class="process__body">
+              <h3>Angebot &amp; Planung</h3>
+              <p>Sie erhalten ein transparentes Angebot. Bei Beauftragung planen wir den Einsatz sofort.</p>
+            </div>
+          </li>
+          <li class="process__step reveal">
+            <div class="process__num">04</div>
+            <div class="process__body">
+              <h3>Ausführung &amp; Übergabe</h3>
+              <p>Unser Team arbeitet schnell und sauber – bis zur vollständigen Inbetriebnahme und Übergabe.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== BEWERTUNGEN ===== -->
+    <section class="testimonials section" id="bewertungen">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Was unsere Kunden sagen</span>
+          <h2 class="section-title">Kundenbewertungen</h2>
+          <div class="testimonials__overall">
+            <div class="stars" aria-label="5 von 5 Sternen">
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span class="testimonials__score">5,0 / 5</span>
+            <span class="testimonials__count">3 Bewertungen</span>
+          </div>
+        </div>
+        <div class="testimonials__grid">
+
+          <article class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 Sterne">
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              „Waren sehr schnell da, es wurde sauber gearbeitet und die Heizung läuft wieder. Außerdem sehr freundlich – absolut empfehlenswert!"
+            </blockquote>
+            <footer class="testimonial-card__footer">
+              <div class="testimonial-card__avatar" aria-hidden="true">K</div>
+              <div>
+                <div class="testimonial-card__author">Kundin aus Essen</div>
+                <div class="testimonial-card__date">Oktober 2023 · GoLocal</div>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 Sterne">
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              „Super gearbeitet und sehr sauber, sehr schnell fertig – kann ich nur weiterempfehlen!"
+            </blockquote>
+            <footer class="testimonial-card__footer">
+              <div class="testimonial-card__avatar" aria-hidden="true">K</div>
+              <div>
+                <div class="testimonial-card__author">Kunde aus Essen</div>
+                <div class="testimonial-card__date">Mai 2023 · GoLocal</div>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div class="testimonial-card__stars" aria-label="5 Sterne">
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <blockquote class="testimonial-card__quote">
+              „Super schnell und freundlich. Gute Arbeit – hat alles prima funktioniert!"
+            </blockquote>
+            <footer class="testimonial-card__footer">
+              <div class="testimonial-card__avatar" aria-hidden="true">K</div>
+              <div>
+                <div class="testimonial-card__author">Kunde aus Essen</div>
+                <div class="testimonial-card__date">November 2022 · Heizungsmeister-Portal</div>
+              </div>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KONTAKT ===== -->
+    <section class="contact section" id="kontakt">
+      <div class="container contact__inner">
+        <div class="contact__info reveal">
+          <span class="section-eyebrow">Jetzt Kontakt aufnehmen</span>
+          <h2 class="section-title">Wir sind für Sie da</h2>
+          <p>Rufen Sie uns an oder schreiben Sie uns – wir antworten schnell und beraten Sie kostenlos und unverbindlich.</p>
+
+          <ul class="contact__list">
+            <li class="contact__item">
+              <div class="contact__icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+              </div>
+              <div>
+                <span class="contact__label">Büro</span>
+                <a href="tel:+4920147401564" class="contact__value">(0201) 47401564</a>
+              </div>
+            </li>
+            <li class="contact__item">
+              <div class="contact__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </div>
+              <div>
+                <span class="contact__label">Mobil</span>
+                <a href="tel:+4917621897602" class="contact__value">(0176) 21897602</a>
+              </div>
+            </li>
+            <li class="contact__item">
+              <div class="contact__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="contact__label">E-Mail</span>
+                <a href="mailto:volkanaydin@gmx.de" class="contact__value">volkanaydin@gmx.de</a>
+              </div>
+            </li>
+            <li class="contact__item">
+              <div class="contact__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="contact__label">Adresse</span>
+                <address class="contact__value contact__address">
+                  Hanielstr. 2a<br />
+                  45327 Essen (Katernberg)
+                </address>
+              </div>
+            </li>
+            <li class="contact__item">
+              <div class="contact__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <span class="contact__label">Öffnungszeiten</span>
+                <div class="contact__value">Mo – Fr: 07:30 – 16:00 Uhr</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact__form-wrap reveal">
+          <form class="contact__form" id="contact-form" novalidate>
+            <h3 class="contact__form-title">Schnellanfrage senden</h3>
+            <div class="form-group">
+              <label for="name">Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" required placeholder="Ihr Name" autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="phone" placeholder="Ihre Telefonnummer" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="email">E-Mail <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" required placeholder="ihre@email.de" autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Ihre Anfrage <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" required placeholder="Was können wir für Sie tun?" rows="5"></textarea>
+            </div>
+            <div class="form-group form-group--privacy">
+              <label class="checkbox-label">
+                <input type="checkbox" id="privacy" name="privacy" required />
+                <span>Ich habe die <a href="#footer">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu.</span>
+              </label>
+            </div>
+            <div class="form__status" id="form-status" role="status" aria-live="polite"></div>
+            <button type="submit" class="btn btn--primary btn--full">
+              Anfrage absenden
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MAP ===== -->
+    <section class="map-section" aria-label="Standort Karte">
+      <div class="map-section__info container">
+        <p>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" width="18" height="18"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Hanielstr. 2a, 45327 Essen (Katernberg)
+          <a href="https://www.google.com/maps/search/Hanielstr.+2a+45327+Essen" target="_blank" rel="noopener noreferrer" class="map-link">In Google Maps öffnen &rarr;</a>
+        </p>
+      </div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.2!2d7.0482!3d51.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sHanielstr.+2a%2C+45327+Essen!5e0!3m2!1sde!2sde!4v1"
+        width="100%"
+        height="380"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Standort Heiz- und Haustechnik Aydin GmbH"
+      ></iframe>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo-text">Aydin <span>Haustechnik</span></span>
+        <p>Heiz- und Haustechnik Aydin GmbH<br />Ihr Spezialist für Heizung &amp; Sanitär in Essen.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Leistungen</h4>
+        <ul>
+          <li><a href="#leistungen">Heizungsinstallation</a></li>
+          <li><a href="#leistungen">Sanitärinstallation</a></li>
+          <li><a href="#leistungen">Wärmepumpen</a></li>
+          <li><a href="#leistungen">Gebäudetechnik</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="#ueber-uns">Über uns</a></li>
+          <li><a href="#bewertungen">Bewertungen</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Kontakt</h4>
+        <address>
+          Hanielstr. 2a<br />
+          45327 Essen (Katernberg)<br />
+          <a href="tel:+4920147401564">(0201) 47401564</a><br />
+          <a href="mailto:volkanaydin@gmx.de">volkanaydin@gmx.de</a>
+        </address>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>&copy; <span id="year"></span> Heiz- und Haustechnik Aydin GmbH. Alle Rechte vorbehalten.</p>
+        <div class="footer__legal">
+          <a href="#footer">Impressum</a>
+          <a href="#footer">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
